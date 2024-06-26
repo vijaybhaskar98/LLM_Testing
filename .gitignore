@@ -1,9 +1,12 @@
-# Ignore node_modules
-node_modules/
+# Ignore everything
+*
 
-# Ignore log files
-*.log
+# Except .gitignore
+!.gitignore
 
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
+# Except README.md (if you have one)
+!README.md
+
+# Except other necessary configuration files
+!some_other_config_file.ext
+
