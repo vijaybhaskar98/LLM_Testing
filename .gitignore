@@ -1,12 +1,2 @@
-# Ignore everything
-*
 
-# Except .gitignore
-!.gitignore
-
-# Except README.md (if you have one)
-!README.md
-
-# Except other necessary configuration files
-!some_other_config_file.ext
 
